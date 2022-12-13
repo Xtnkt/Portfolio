@@ -1,0 +1,27 @@
+.footerBlock{
+    height: 30vh;
+    background-color: lightblue;
+}
+.footerContainer{
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    background-color: #87a316;
+}
+.links{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.span{
+    background-color:#87a316 ;
+}

@@ -1,0 +1,31 @@
+.distantWorkBlock{
+    height: 30vh;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.distantWorkContainer{
+    flex-direction: column;
+}
+.span{
+    background-color: #893ba3;
+}
+.button {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.button:active{
+    background-color: red;
+}

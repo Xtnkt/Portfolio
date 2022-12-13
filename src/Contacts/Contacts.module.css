@@ -1,0 +1,49 @@
+.contactsBlock{
+    height: 100vh;
+    background-color: wheat;
+}
+.contactsContainer{
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.title{
+    background-color: #87a316;
+}
+.form{
+
+    min-height: 150px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #a32f11;
+}
+.firstInput{
+    background-color: grey;
+}
+.secondInput{
+    background-color: grey;
+}
+.textarea{
+    background-color: grey;
+    min-height: 100px;
+}
+.input{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.input:hover {
+    background-color: black;
+    color: white;
+}
+.input:active{
+    background-color: red;
+}

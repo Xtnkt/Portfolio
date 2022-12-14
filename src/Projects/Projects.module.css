@@ -1,5 +1,5 @@
 .portfoliosBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #893ba3;
 }
 .portfoliosContainer{
@@ -14,7 +14,7 @@
 
 }
 .title{
-    background-color: #87a316;
+    background-color: #B94629;
 }
 .portfolios{
     border: 1px solid;

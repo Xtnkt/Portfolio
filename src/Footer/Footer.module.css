@@ -1,8 +1,9 @@
-.footerBlock{
-    height: 30vh;
+.footerBlock {
+    height: 40vh;
     background-color: lightblue;
 }
-.footerContainer{
+
+.footerContainer {
     border: 1px solid;
     height: 100%;
     width: 80%;
@@ -12,16 +13,20 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.title{
-    background-color: #87a316;
+
+.title {
+    background-color: #B94629;
 }
-.links{
+
+.links {
     border: 1px solid;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
-.span{
-    background-color:#87a316 ;
+
+.span {
+    background-color: #B94629;
 }

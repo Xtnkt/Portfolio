@@ -8,9 +8,9 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>Contacts</h2>
                 <form className={style.form}>
-                    <div className={style.firstInput}>{`<input>`}</div>
-                    <div className={style.secondInput}>{`<input>`}</div>
-                    <div className={style.textarea}>{`<textarea>`}</div>
+                    <input className={style.firstInput} type={'text'}/>
+                    <input className={style.secondInput} type={'text'}/>
+                    <textarea className={style.textarea}/>
                 </form>
                 <input className={style.input} type="submit" value="Send"/>
             </div>

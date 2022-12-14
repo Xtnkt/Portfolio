@@ -5,25 +5,24 @@
 .contactsContainer{
     justify-content: space-between;
     flex-direction: column;
-
 }
 .title{
-    background-color: #87a316;
+    background-color:  #B94629;
 }
 .form{
-
     min-height: 150px;
     width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
     color: #a32f11;
 }
 .firstInput{
+    margin-bottom: 5px;
     background-color: grey;
 }
 .secondInput{
+    margin-bottom: 5px;
     background-color: grey;
 }
 .textarea{

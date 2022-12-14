@@ -1,7 +1,16 @@
-.header {
+.headerBlock {
     height: 80px;
-    background-color: #61dafb;
+    background-color: #B94629;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.headerContainer{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }

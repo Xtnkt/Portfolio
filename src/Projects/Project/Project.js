@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Portfolio.module.css'
+import style from './Project.module.css'
 
-export const Portfolio = (props) => {
+export const Project = (props) => {
     return (
-        <div className={style.portfolio}>
+        <div className={style.projectContainer}>
             <div className={style.photo}>
                 <button className={style.button}>Look</button>
             </div>

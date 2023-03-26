@@ -1,8 +1,9 @@
-.portfoliosBlock{
+.portfoliosBlock {
     min-height: 100vh;
-    background-color: #893ba3;
+    background-color: #0e0e17;;
 }
-.portfoliosContainer{
+
+.portfoliosContainer {
     flex-direction: column;
     border: 1px solid;
     height: 100%;
@@ -11,15 +12,18 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
 
-}
-.title{
-    background-color: #B94629;
-}
-.portfolios{
+.portfolios {
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (min-width: 755px) {
+    .portfolios {
+        justify-content: space-between;
+    }
 }

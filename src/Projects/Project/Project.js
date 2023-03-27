@@ -4,12 +4,14 @@ import style from './Project.module.css'
 export const Project = (props) => {
     return (
         <div className={style.projectContainer}>
-            <div className={style.photo}>
-                <button className={style.button}>Look</button>
-            </div>
-            <div className={style.information}>
-                <span className={style.projectName}>{props.projectName}</span>
-                <span className={style.description}>{props.description}</span>
+            <div className={style.futureProjectBox}>
+                <div className={style.photo} style={props.style}>
+                    <a className={style.button}>Смотреть</a>
+                </div>
+                <div className={style.information}>
+                    <h5 className={style.projectName}>{props.projectName}</h5>
+                    <p className={style.description}>{props.description}</p>
+                </div>
             </div>
         </div>
     );

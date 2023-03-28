@@ -1,14 +1,14 @@
-.title {
-    margin-bottom: 35px;
-    position: relative;
-}
+@import "../../../common/styles/sass/variables";
 
-.title h3 {
-    font-family: 'Rubik', sans-serif;
-    color: #fff;
+.title {
+  margin-bottom: 35px;
+  position: relative;
+
+  .titleText {
+    font-family: $textStyle;
+    color: $textColor;
     margin: 0;
     position: relative;
-    z-index: 1;
     font-weight: 300;
     font-size: 30px;
     display: inline-block;
@@ -16,20 +16,20 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 1.2;
-}
+  }
 
-.title h3:before {
+  &::before {
     content: "";
     position: absolute;
     bottom: -5px;
     left: 0;
     right: 0;
     width: 60px;
-    background: #2fbf71;
+    background: $primaryColor;
     height: 1px;
-}
+  }
 
-.title h3:after {
+  &::after {
     content: "";
     width: 6px;
     height: 6px;
@@ -38,5 +38,6 @@
     bottom: -7px;
     left: 56px;
     right: 0;
-    background: #2fbf71;
+    background: $primaryColor;
+  }
 }

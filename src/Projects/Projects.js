@@ -15,7 +15,7 @@ export const Projects = () => {
     return (
         <div className={style.portfoliosBlock}>
             <div className={style.portfoliosContainer}>
-                <Title text={'Projects'}/>
+                    <Title  text={'Projects'}/>
                 <div className={style.portfolios}>
                     <Project projectName={'Web Design'}
                              style={social}

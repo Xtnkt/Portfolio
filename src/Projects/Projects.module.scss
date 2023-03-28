@@ -1,27 +1,26 @@
+@import "../common/styles/sass/variables";
+
 .portfoliosBlock {
   min-height: 100vh;
-  background-color: #10101a;
-}
+  background-color: $backgroundColor;
 
-.portfoliosContainer {
-  flex-direction: column;
-  height: 100%;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+  .portfoliosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
 
-.portfolios {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-@media screen and (min-width: 755px) {
-  .portfolios {
-    justify-content: space-between;
+    .portfolios {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      @media screen and (min-width: 755px) {
+        justify-content: space-between;
+      }
+    }
   }
 }

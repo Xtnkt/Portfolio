@@ -1,0 +1,62 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.skillContainer {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+
+  .futureSkillBox {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+    overflow: hidden;
+    background: $backgroundSecondColor;
+    transition: ease background 0.35s;
+
+    &:hover {
+      background: $primaryColor;
+    }
+
+    .iconContainer {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .icon {
+        height: 60px;
+        width: 60px;
+      }
+    }
+
+
+    .information {
+      padding-left: 25px;
+
+      .skillName {
+        @include text($textStyle, 1.25rem, 500, 1.2, $textColor);
+        margin-bottom: 15px;
+        margin-top: 0;
+      }
+
+      .description {
+        @include text($textStyle, 15px, 300, 1.7, rgba(255, 255, 255, 0.8));
+        text-align: left;
+      }
+    }
+  }
+
+  @media (min-width: 755px) {
+    //-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+

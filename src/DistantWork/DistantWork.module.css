@@ -1,4 +1,4 @@
-.distantWorkBlock{
+.distantWorkBlock {
     height: 30vh;
     background-color: #10101a;;
     display: flex;
@@ -6,12 +6,15 @@
     align-items: center;
     text-align: center;
 }
-.distantWorkContainer{
+
+.distantWorkContainer {
     flex-direction: column;
 }
-.span{
-    background-color:  #B94629;
+
+.span {
+    background-color: #B94629;
 }
+
 .button {
     background-color: #f1f1f1;
     color: black;
@@ -26,6 +29,7 @@
     background-color: black;
     color: white;
 }
-.button:active{
+
+.button:active {
     background-color: red;
 }

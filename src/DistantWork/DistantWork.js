@@ -7,10 +7,9 @@ export const DistantWork = () => {
     return (
         <div className={style.distantWorkBlock}>
             <div className={`${styleContainer.container} ${style.distantWorkContainer}`}>
-               <Title text={'I am considering options for distant work'}/>
+                <Title text={'I am considering options for distant work'}/>
                 <button className={style.button}>Recruit me</button>
             </div>
-
         </div>
     );
 };

@@ -10,7 +10,8 @@
   padding-bottom: 15px;
 
   .futureProjectBox {
-    background-color: $backgroundSecondColor;
+    background: $backgroundSecondColor;
+    transition: ease background 0.35s;
 
     &:hover {
       background: $primaryColor;
